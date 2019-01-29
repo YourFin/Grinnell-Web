@@ -1,0 +1,30 @@
+{
+  "name": "SSOGrinnell",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "react": "16.6.3",
+    "react-native": "0.58.3",
+    "react-native-webview": "^3.2.1",
+    "rn-nodeify": "^10.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.0.0",
+    "babel-plugin-preval": "^3.0.1",
+    "jest": "24.0.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "scrypt": "^6.0.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
